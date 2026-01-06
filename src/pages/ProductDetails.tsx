@@ -14,7 +14,7 @@ const demoProduct: Product = {
   description: 'Premium cotton t-shirt crafted from 100% organic cotton. Features a relaxed fit with dropped shoulders and a slightly cropped length. The soft, breathable fabric ensures all-day comfort while maintaining its shape wash after wash. Perfect for layering or wearing on its own.',
   price: 1499,
   images: ['/placeholder.svg', '/placeholder.svg', '/placeholder.svg', '/placeholder.svg'],
-  category: 'men',
+  category: 'normal-tshirts',
   stock: { S: 5, M: 10, L: 8, XL: 6, XXL: 0 },
   isActive: true,
   createdAt: new Date().toISOString(),

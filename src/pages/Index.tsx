@@ -1,5 +1,4 @@
 import { HeroCarousel } from '@/components/home/HeroCarousel';
-import { LookbookSection } from '@/components/home/LookbookSection';
 import { FeaturedProducts } from '@/components/home/FeaturedProducts';
 import { USPBanner } from '@/components/home/USPBanner';
 import { CustomTshirtSection } from '@/components/home/CustomTshirtSection';
@@ -13,9 +12,8 @@ const Index = () => {
       <FeaturedProducts 
         title="New Arrivals" 
         subtitle="Just Landed" 
-        viewAllLink="/shop?category=new" 
+        viewAllLink="/shop" 
       />
-      <LookbookSection />
       <FeaturedProducts 
         title="Bestsellers" 
         subtitle="Customer Favorites" 

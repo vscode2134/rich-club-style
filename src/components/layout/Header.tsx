@@ -5,11 +5,11 @@ import { useCart } from '@/context/CartContext';
 import { cn } from '@/lib/utils';
 
 const navigation = [
-  { name: 'New Arrivals', href: '/shop?category=new' },
-  { name: 'Men', href: '/shop?category=men' },
-  { name: 'Women', href: '/shop?category=women' },
-  { name: 'Kids', href: '/shop?category=kids' },
-  { name: 'Accessories', href: '/shop?category=accessories' },
+  { name: 'Normal T-Shirts', href: '/shop?category=normal-tshirts' },
+  { name: 'Oversize T-Shirts', href: '/shop?category=oversize-tshirts' },
+  { name: 'Collar T-Shirts', href: '/shop?category=collar-tshirts' },
+  { name: 'Hoodies', href: '/shop?category=hoodies' },
+  { name: 'Customized', href: '/shop?category=customized-tshirts' },
 ];
 
 export function Header() {
