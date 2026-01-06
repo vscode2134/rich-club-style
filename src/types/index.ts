@@ -9,7 +9,13 @@ export interface ProductStock {
 
 export type ProductSize = keyof ProductStock;
 
-export type ProductCategory = 'men' | 'women' | 'kids' | 'accessories' | 'footwear' | 'other';
+export type ProductCategory = 
+  | 'normal-tshirts' 
+  | 'oversize-tshirts' 
+  | 'collar-tshirts' 
+  | 'hoodies' 
+  | 'customized-tshirts' 
+  | 'customized-hoodies';
 
 export interface Product {
   _id: string;
